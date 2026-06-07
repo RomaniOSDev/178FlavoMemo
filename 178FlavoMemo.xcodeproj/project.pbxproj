@@ -3,33 +3,109 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		30BE4E172FCC369D00ED4307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E0D2FCC369D00ED4307 /* AppDelegate.swift */; };
+		30BE4E182FCC369D00ED4307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E142FCC369D00ED4307 /* SceneDelegate.swift */; };
+		30BE4E192FCC369D00ED4307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E152FCC369D00ED4307 /* ViewController.swift */; };
+		30BE4E1A2FCC369D00ED4307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4E0E2FCC369D00ED4307 /* Assets.xcassets */; };
+		30BE4E1C2FCC369D00ED4307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4E112FCC369D00ED4307 /* LaunchScreen.storyboard */; };
+		30BE4E1D2FCC369D00ED4307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE4E132FCC369D00ED4307 /* Main.storyboard */; };
+		30BE4E1F2FCC36B600ED4307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E1E2FCC36B600ED4307 /* ContentView.swift */; };
+		A1B2C3D12FCC400100ED4307 /* TastingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D12FCC400100ED4307 /* TastingModel.swift */; };
+		A1B2C3D22FCC400100ED4307 /* TastingStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D22FCC400100ED4307 /* TastingStorageService.swift */; };
+		A1B2C3D32FCC400100ED4307 /* TastingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D32FCC400100ED4307 /* TastingViewModel.swift */; };
+		A1B2C3D42FCC400100ED4307 /* TastingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D42FCC400100ED4307 /* TastingListView.swift */; };
+		A1B2C3D52FCC400100ED4307 /* TastingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D52FCC400100ED4307 /* TastingFormView.swift */; };
+		A1B2C3D62FCC400100ED4307 /* TastingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D62FCC400100ED4307 /* TastingDetailView.swift */; };
+		A1B2C3D72FCC400100ED4307 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D72FCC400100ED4307 /* StarRatingView.swift */; };
+		A1B2C3D82FCC400100ED4307 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D82FCC400100ED4307 /* AppColors.swift */; };
+		A1B2C3D92FCC400100ED4307 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2C3D92FCC400100ED4307 /* DateFormatting.swift */; };
+		A1D1C3D12FCC500100ED4307 /* DrinkTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D12FCC500100ED4307 /* DrinkTemplate.swift */; };
+		A1D1C3D22FCC500100ED4307 /* TastingCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D22FCC500100ED4307 /* TastingCollection.swift */; };
+		A1D1C3D32FCC500100ED4307 /* ReminderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D32FCC500100ED4307 /* ReminderSettings.swift */; };
+		A1D1C3D42FCC500100ED4307 /* ExportBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D42FCC500100ED4307 /* ExportBundle.swift */; };
+		A1D1C3D52FCC500100ED4307 /* InsightsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D52FCC500100ED4307 /* InsightsData.swift */; };
+		A1D1C3D62FCC500100ED4307 /* PhotoStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D62FCC500100ED4307 /* PhotoStorageService.swift */; };
+		A1D1C3D72FCC500100ED4307 /* ExportImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D72FCC500100ED4307 /* ExportImportService.swift */; };
+		A1D1C3D82FCC500100ED4307 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D82FCC500100ED4307 /* NotificationService.swift */; };
+		A1D1C3D92FCC500100ED4307 /* TastingCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3D92FCC500100ED4307 /* TastingCalendarView.swift */; };
+		A1D1C3DA2FCC500100ED4307 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DA2FCC500100ED4307 /* InsightsView.swift */; };
+		A1D1C3DB2FCC500100ED4307 /* TemplatesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DB2FCC500100ED4307 /* TemplatesListView.swift */; };
+		A1D1C3DC2FCC500100ED4307 /* CollectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DC2FCC500100ED4307 /* CollectionsListView.swift */; };
+		A1D1C3DD2FCC500100ED4307 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DD2FCC500100ED4307 /* CompareView.swift */; };
+		A1D1C3DE2FCC500100ED4307 /* ExportImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DE2FCC500100ED4307 /* ExportImportView.swift */; };
+		A1D1C3DF2FCC500100ED4307 /* RemindersSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3DF2FCC500100ED4307 /* RemindersSettingsView.swift */; };
+		A1D1C3E02FCC500100ED4307 /* LibraryHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3E02FCC500100ED4307 /* LibraryHubView.swift */; };
+		A1D1C3E12FCC500100ED4307 /* ToolsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3E12FCC500100ED4307 /* ToolsHubView.swift */; };
+		A1D1C3E22FCC500100ED4307 /* FormStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3E22FCC500100ED4307 /* FormStyles.swift */; };
+		A1D1C3E32FCC500100ED4307 /* FlavorTagPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3E32FCC500100ED4307 /* FlavorTagPickerView.swift */; };
+		A1D1C3E42FCC500100ED4307 /* TastingPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D1C3E42FCC500100ED4307 /* TastingPhotoView.swift */; };
+		A1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift */; };
+		A1D2C3E22FCC600100ED4307 /* TastingCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2C3E22FCC600100ED4307 /* TastingCardCell.swift */; };
+		A1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift */; };
+		A1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift */; };
+		A1D3C3E12FCC700100ED4307 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3C3E12FCC700100ED4307 /* AppLinks.swift */; };
+		A1D3C3E22FCC700100ED4307 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3C3E22FCC700100ED4307 /* SettingsView.swift */; };
+		A1D4C3E12FCC800100ED4307 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4C3E12FCC800100ED4307 /* HomeView.swift */; };
+		A1D5C3E12FCC900100ED4307 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D5C3E12FCC900100ED4307 /* OnboardingView.swift */; };
+		A1D5C3E22FCC900100ED4307 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D5C3E22FCC900100ED4307 /* OnboardingService.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30BE4DF52FCC368900ED4307 /* 178FlavoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 178FlavoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BE4E0D2FCC369D00ED4307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30BE4E0E2FCC369D00ED4307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BE4E0F2FCC369D00ED4307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BE4E102FCC369D00ED4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30BE4E122FCC369D00ED4307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30BE4E142FCC369D00ED4307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30BE4E152FCC369D00ED4307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30BE4E1E2FCC36B600ED4307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F3E1DFEF0902A8F3DDA2F83 /* Pods-178FlavoMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-178FlavoMemo.debug.xcconfig"; path = "Target Support Files/Pods-178FlavoMemo/Pods-178FlavoMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		86B9373DBFD13E6AF53F18CF /* Pods_178FlavoMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_178FlavoMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B2C3D12FCC400100ED4307 /* TastingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingModel.swift; sourceTree = "<group>"; };
+		B1B2C3D22FCC400100ED4307 /* TastingStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingStorageService.swift; sourceTree = "<group>"; };
+		B1B2C3D32FCC400100ED4307 /* TastingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingViewModel.swift; sourceTree = "<group>"; };
+		B1B2C3D42FCC400100ED4307 /* TastingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingListView.swift; sourceTree = "<group>"; };
+		B1B2C3D52FCC400100ED4307 /* TastingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingFormView.swift; sourceTree = "<group>"; };
+		B1B2C3D62FCC400100ED4307 /* TastingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingDetailView.swift; sourceTree = "<group>"; };
+		B1B2C3D72FCC400100ED4307 /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		B1B2C3D82FCC400100ED4307 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		B1B2C3D92FCC400100ED4307 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		B1D1C3D12FCC500100ED4307 /* DrinkTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTemplate.swift; sourceTree = "<group>"; };
+		B1D1C3D22FCC500100ED4307 /* TastingCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingCollection.swift; sourceTree = "<group>"; };
+		B1D1C3D32FCC500100ED4307 /* ReminderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettings.swift; sourceTree = "<group>"; };
+		B1D1C3D42FCC500100ED4307 /* ExportBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportBundle.swift; sourceTree = "<group>"; };
+		B1D1C3D52FCC500100ED4307 /* InsightsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsData.swift; sourceTree = "<group>"; };
+		B1D1C3D62FCC500100ED4307 /* PhotoStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStorageService.swift; sourceTree = "<group>"; };
+		B1D1C3D72FCC500100ED4307 /* ExportImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportImportService.swift; sourceTree = "<group>"; };
+		B1D1C3D82FCC500100ED4307 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B1D1C3D92FCC500100ED4307 /* TastingCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingCalendarView.swift; sourceTree = "<group>"; };
+		B1D1C3DA2FCC500100ED4307 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		B1D1C3DB2FCC500100ED4307 /* TemplatesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesListView.swift; sourceTree = "<group>"; };
+		B1D1C3DC2FCC500100ED4307 /* CollectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsListView.swift; sourceTree = "<group>"; };
+		B1D1C3DD2FCC500100ED4307 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
+		B1D1C3DE2FCC500100ED4307 /* ExportImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportImportView.swift; sourceTree = "<group>"; };
+		B1D1C3DF2FCC500100ED4307 /* RemindersSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSettingsView.swift; sourceTree = "<group>"; };
+		B1D1C3E02FCC500100ED4307 /* LibraryHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryHubView.swift; sourceTree = "<group>"; };
+		B1D1C3E12FCC500100ED4307 /* ToolsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsHubView.swift; sourceTree = "<group>"; };
+		B1D1C3E22FCC500100ED4307 /* FormStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormStyles.swift; sourceTree = "<group>"; };
+		B1D1C3E32FCC500100ED4307 /* FlavorTagPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorTagPickerView.swift; sourceTree = "<group>"; };
+		B1D1C3E42FCC500100ED4307 /* TastingPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingPhotoView.swift; sourceTree = "<group>"; };
+		B1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesignSystem.swift; sourceTree = "<group>"; };
+		B1D2C3E22FCC600100ED4307 /* TastingCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastingCardCell.swift; sourceTree = "<group>"; };
+		B1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCardCell.swift; sourceTree = "<group>"; };
+		B1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCardCell.swift; sourceTree = "<group>"; };
+		B1D3C3E12FCC700100ED4307 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		B1D3C3E22FCC700100ED4307 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1D4C3E12FCC800100ED4307 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1D5C3E12FCC900100ED4307 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1D5C3E22FCC900100ED4307 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		B95EC3FECE49A3773E41CB45 /* Pods-178FlavoMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-178FlavoMemo.release.xcconfig"; path = "Target Support Files/Pods-178FlavoMemo/Pods-178FlavoMemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30BE4E072FCC368B00ED4307 /* Exceptions for "178FlavoMemo" folder in "178FlavoMemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30BE4DF42FCC368900ED4307 /* 178FlavoMemo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30BE4DF72FCC368900ED4307 /* 178FlavoMemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30BE4E072FCC368B00ED4307 /* Exceptions for "178FlavoMemo" folder in "178FlavoMemo" target */,
-			);
-			path = 178FlavoMemo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30BE4DF22FCC368900ED4307 /* Frameworks */ = {
@@ -42,11 +118,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B807049ED36FEEF583E558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B9373DBFD13E6AF53F18CF /* Pods_178FlavoMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		30BE4DEC2FCC368900ED4307 = {
 			isa = PBXGroup;
 			children = (
-				30BE4DF72FCC368900ED4307 /* 178FlavoMemo */,
+				30BE4E162FCC369D00ED4307 /* 178FlavoMemo */,
 				30BE4DF62FCC368900ED4307 /* Products */,
+				5BCC778E6F2A383094031F63 /* Pods */,
+				18B807049ED36FEEF583E558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +144,116 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30BE4E162FCC369D00ED4307 /* 178FlavoMemo */ = {
+			isa = PBXGroup;
+			children = (
+				30BE4E0D2FCC369D00ED4307 /* AppDelegate.swift */,
+				30BE4E142FCC369D00ED4307 /* SceneDelegate.swift */,
+				30BE4E152FCC369D00ED4307 /* ViewController.swift */,
+				30BE4E1E2FCC36B600ED4307 /* ContentView.swift */,
+				C1B2C3D12FCC400100ED4307 /* Models */,
+				C1B2C3D22FCC400100ED4307 /* ViewModels */,
+				C1B2C3D32FCC400100ED4307 /* Views */,
+				C1B2C3D42FCC400100ED4307 /* Services */,
+				C1B2C3D52FCC400100ED4307 /* Utilities */,
+				30BE4E0E2FCC369D00ED4307 /* Assets.xcassets */,
+				30BE4E0F2FCC369D00ED4307 /* Info.plist */,
+				30BE4E112FCC369D00ED4307 /* LaunchScreen.storyboard */,
+				30BE4E132FCC369D00ED4307 /* Main.storyboard */,
+			);
+			path = 178FlavoMemo;
+			sourceTree = "<group>";
+		};
+		5BCC778E6F2A383094031F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E1DFEF0902A8F3DDA2F83 /* Pods-178FlavoMemo.debug.xcconfig */,
+				B95EC3FECE49A3773E41CB45 /* Pods-178FlavoMemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1B2C3D12FCC400100ED4307 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2C3D12FCC400100ED4307 /* TastingModel.swift */,
+				B1D1C3D12FCC500100ED4307 /* DrinkTemplate.swift */,
+				B1D1C3D22FCC500100ED4307 /* TastingCollection.swift */,
+				B1D1C3D32FCC500100ED4307 /* ReminderSettings.swift */,
+				B1D1C3D42FCC500100ED4307 /* ExportBundle.swift */,
+				B1D1C3D52FCC500100ED4307 /* InsightsData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1B2C3D22FCC400100ED4307 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2C3D32FCC400100ED4307 /* TastingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C1B2C3D32FCC400100ED4307 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4C3E12FCC800100ED4307 /* HomeView.swift */,
+				B1D5C3E12FCC900100ED4307 /* OnboardingView.swift */,
+				B1B2C3D42FCC400100ED4307 /* TastingListView.swift */,
+				B1D1C3D92FCC500100ED4307 /* TastingCalendarView.swift */,
+				B1B2C3D52FCC400100ED4307 /* TastingFormView.swift */,
+				B1B2C3D62FCC400100ED4307 /* TastingDetailView.swift */,
+				B1D1C3DA2FCC500100ED4307 /* InsightsView.swift */,
+				B1D1C3DB2FCC500100ED4307 /* TemplatesListView.swift */,
+				B1D1C3DC2FCC500100ED4307 /* CollectionsListView.swift */,
+				B1D1C3DD2FCC500100ED4307 /* CompareView.swift */,
+				B1D1C3DE2FCC500100ED4307 /* ExportImportView.swift */,
+				B1D1C3DF2FCC500100ED4307 /* RemindersSettingsView.swift */,
+				B1D1C3E02FCC500100ED4307 /* LibraryHubView.swift */,
+				B1D1C3E12FCC500100ED4307 /* ToolsHubView.swift */,
+				B1D3C3E22FCC700100ED4307 /* SettingsView.swift */,
+				C1B2C3D62FCC400100ED4307 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1B2C3D42FCC400100ED4307 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2C3D22FCC400100ED4307 /* TastingStorageService.swift */,
+				B1D5C3E22FCC900100ED4307 /* OnboardingService.swift */,
+				B1D1C3D62FCC500100ED4307 /* PhotoStorageService.swift */,
+				B1D1C3D72FCC500100ED4307 /* ExportImportService.swift */,
+				B1D1C3D82FCC500100ED4307 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C1B2C3D52FCC400100ED4307 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2C3D82FCC400100ED4307 /* AppColors.swift */,
+				B1B2C3D92FCC400100ED4307 /* DateFormatting.swift */,
+				B1D3C3E12FCC700100ED4307 /* AppLinks.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C1B2C3D62FCC400100ED4307 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift */,
+				B1B2C3D72FCC400100ED4307 /* StarRatingView.swift */,
+				B1D2C3E22FCC600100ED4307 /* TastingCardCell.swift */,
+				B1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift */,
+				B1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift */,
+				B1D1C3E22FCC500100ED4307 /* FormStyles.swift */,
+				B1D1C3E32FCC500100ED4307 /* FlavorTagPickerView.swift */,
+				B1D1C3E42FCC500100ED4307 /* TastingPhotoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BE4E082FCC368B00ED4307 /* Build configuration list for PBXNativeTarget "178FlavoMemo" */;
 			buildPhases = (
+				83C4C68B4A83C7A8925AF278 /* [CP] Check Pods Manifest.lock */,
 				30BE4DF12FCC368900ED4307 /* Sources */,
 				30BE4DF22FCC368900ED4307 /* Frameworks */,
 				30BE4DF32FCC368900ED4307 /* Resources */,
@@ -73,12 +270,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30BE4DF72FCC368900ED4307 /* 178FlavoMemo */,
-			);
 			name = 178FlavoMemo;
-			packageProductDependencies = (
-			);
 			productName = 178FlavoMemo;
 			productReference = 30BE4DF52FCC368900ED4307 /* 178FlavoMemo.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +291,7 @@
 				};
 			};
 			buildConfigurationList = 30BE4DF02FCC368900ED4307 /* Build configuration list for PBXProject "178FlavoMemo" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +299,6 @@
 				Base,
 			);
 			mainGroup = 30BE4DEC2FCC368900ED4307;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30BE4DF62FCC368900ED4307 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +313,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BE4E1A2FCC369D00ED4307 /* Assets.xcassets in Resources */,
+				30BE4E1C2FCC369D00ED4307 /* LaunchScreen.storyboard in Resources */,
+				30BE4E1D2FCC369D00ED4307 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83C4C68B4A83C7A8925AF278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-178FlavoMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30BE4DF12FCC368900ED4307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BE4E172FCC369D00ED4307 /* AppDelegate.swift in Sources */,
+				30BE4E182FCC369D00ED4307 /* SceneDelegate.swift in Sources */,
+				30BE4E1F2FCC36B600ED4307 /* ContentView.swift in Sources */,
+				30BE4E192FCC369D00ED4307 /* ViewController.swift in Sources */,
+				A1B2C3D12FCC400100ED4307 /* TastingModel.swift in Sources */,
+				A1B2C3D22FCC400100ED4307 /* TastingStorageService.swift in Sources */,
+				A1B2C3D32FCC400100ED4307 /* TastingViewModel.swift in Sources */,
+				A1B2C3D42FCC400100ED4307 /* TastingListView.swift in Sources */,
+				A1B2C3D52FCC400100ED4307 /* TastingFormView.swift in Sources */,
+				A1B2C3D62FCC400100ED4307 /* TastingDetailView.swift in Sources */,
+				A1B2C3D72FCC400100ED4307 /* StarRatingView.swift in Sources */,
+				A1B2C3D82FCC400100ED4307 /* AppColors.swift in Sources */,
+				A1B2C3D92FCC400100ED4307 /* DateFormatting.swift in Sources */,
+				A1D1C3D12FCC500100ED4307 /* DrinkTemplate.swift in Sources */,
+				A1D1C3D22FCC500100ED4307 /* TastingCollection.swift in Sources */,
+				A1D1C3D32FCC500100ED4307 /* ReminderSettings.swift in Sources */,
+				A1D1C3D42FCC500100ED4307 /* ExportBundle.swift in Sources */,
+				A1D1C3D52FCC500100ED4307 /* InsightsData.swift in Sources */,
+				A1D1C3D62FCC500100ED4307 /* PhotoStorageService.swift in Sources */,
+				A1D1C3D72FCC500100ED4307 /* ExportImportService.swift in Sources */,
+				A1D1C3D82FCC500100ED4307 /* NotificationService.swift in Sources */,
+				A1D1C3D92FCC500100ED4307 /* TastingCalendarView.swift in Sources */,
+				A1D1C3DA2FCC500100ED4307 /* InsightsView.swift in Sources */,
+				A1D1C3DB2FCC500100ED4307 /* TemplatesListView.swift in Sources */,
+				A1D1C3DC2FCC500100ED4307 /* CollectionsListView.swift in Sources */,
+				A1D1C3DD2FCC500100ED4307 /* CompareView.swift in Sources */,
+				A1D1C3DE2FCC500100ED4307 /* ExportImportView.swift in Sources */,
+				A1D1C3DF2FCC500100ED4307 /* RemindersSettingsView.swift in Sources */,
+				A1D1C3E02FCC500100ED4307 /* LibraryHubView.swift in Sources */,
+				A1D1C3E12FCC500100ED4307 /* ToolsHubView.swift in Sources */,
+				A1D1C3E22FCC500100ED4307 /* FormStyles.swift in Sources */,
+				A1D1C3E32FCC500100ED4307 /* FlavorTagPickerView.swift in Sources */,
+				A1D1C3E42FCC500100ED4307 /* TastingPhotoView.swift in Sources */,
+				A1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift in Sources */,
+				A1D2C3E22FCC600100ED4307 /* TastingCardCell.swift in Sources */,
+				A1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift in Sources */,
+				A1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift in Sources */,
+				A1D3C3E12FCC700100ED4307 /* AppLinks.swift in Sources */,
+				A1D3C3E22FCC700100ED4307 /* SettingsView.swift in Sources */,
+				A1D4C3E12FCC800100ED4307 /* HomeView.swift in Sources */,
+				A1D5C3E12FCC900100ED4307 /* OnboardingView.swift in Sources */,
+				A1D5C3E22FCC900100ED4307 /* OnboardingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30BE4E112FCC369D00ED4307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE4E102FCC369D00ED4307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30BE4E132FCC369D00ED4307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BE4E122FCC369D00ED4307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30BE4E092FCC368B00ED4307 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3E1DFEF0902A8F3DDA2F83 /* Pods-178FlavoMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +428,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 178FlavoMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cherry Recorder: Ratings";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to attach tasting photos to your records.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-78FlavoMemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mik.ch3rr9r3c0rd3rr8t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30BE4E0A2FCC368B00ED4307 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95EC3FECE49A3773E41CB45 /* Pods-178FlavoMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +467,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 178FlavoMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cherry Recorder: Ratings";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to attach tasting photos to your records.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-78FlavoMemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mik.ch3rr9r3c0rd3rr8t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
