@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303290B82FE05CCC00696F7B /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AE2FE05CCC00696F7B /* LaunchFlowLogger.swift */; };
+		303290B92FE05CCC00696F7B /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B42FE05CCC00696F7B /* RemoteEntryURLComposer.swift */; };
+		303290BA2FE05CCC00696F7B /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AC2FE05CCC00696F7B /* LaunchDestination.swift */; };
+		303290BB2FE05CCC00696F7B /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AD2FE05CCC00696F7B /* LaunchFlowDebugOptions.swift */; };
+		303290BC2FE05CCC00696F7B /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B12FE05CCC00696F7B /* LaunchSessionStore.swift */; };
+		303290BD2FE05CCC00696F7B /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AF2FE05CCC00696F7B /* LaunchFlowResolver.swift */; };
+		303290BE2FE05CCC00696F7B /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B02FE05CCC00696F7B /* LaunchFlowSecrets.swift */; };
+		303290BF2FE05CCC00696F7B /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B62FE05CCC00696F7B /* WebDocumentSurfaceView.swift */; };
+		303290C02FE05CCC00696F7B /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AA2FE05CCC00696F7B /* CalendarGateEvaluator.swift */; };
+		303290C12FE05CCC00696F7B /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290AB2FE05CCC00696F7B /* DeferredLaunchCanvas.swift */; };
+		303290C22FE05CCC00696F7B /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B32FE05CCC00696F7B /* RemoteEntryProbe.swift */; };
+		303290C32FE05CCC00696F7B /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B22FE05CCC00696F7B /* LaunchStagingState.swift */; };
+		303290C42FE05CCC00696F7B /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290B52FE05CCC00696F7B /* RootWindowPresenter.swift */; };
+		303290C62FE05CD000696F7B /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303290C52FE05CD000696F7B /* AppMarketingCopy.swift */; };
 		30BE4E172FCC369D00ED4307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E0D2FCC369D00ED4307 /* AppDelegate.swift */; };
 		30BE4E182FCC369D00ED4307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E142FCC369D00ED4307 /* SceneDelegate.swift */; };
 		30BE4E192FCC369D00ED4307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE4E152FCC369D00ED4307 /* ViewController.swift */; };
@@ -55,6 +69,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303290AA2FE05CCC00696F7B /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		303290AB2FE05CCC00696F7B /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		303290AC2FE05CCC00696F7B /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		303290AD2FE05CCC00696F7B /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		303290AE2FE05CCC00696F7B /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		303290AF2FE05CCC00696F7B /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		303290B02FE05CCC00696F7B /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		303290B12FE05CCC00696F7B /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		303290B22FE05CCC00696F7B /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		303290B32FE05CCC00696F7B /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		303290B42FE05CCC00696F7B /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		303290B52FE05CCC00696F7B /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		303290B62FE05CCC00696F7B /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		303290C52FE05CD000696F7B /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
 		30BE4DF52FCC368900ED4307 /* 178FlavoMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 178FlavoMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BE4E0D2FCC369D00ED4307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BE4E0E2FCC369D00ED4307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +154,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		303290B72FE05CCC00696F7B /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				303290AA2FE05CCC00696F7B /* CalendarGateEvaluator.swift */,
+				303290AB2FE05CCC00696F7B /* DeferredLaunchCanvas.swift */,
+				303290AC2FE05CCC00696F7B /* LaunchDestination.swift */,
+				303290AD2FE05CCC00696F7B /* LaunchFlowDebugOptions.swift */,
+				303290AE2FE05CCC00696F7B /* LaunchFlowLogger.swift */,
+				303290AF2FE05CCC00696F7B /* LaunchFlowResolver.swift */,
+				303290B02FE05CCC00696F7B /* LaunchFlowSecrets.swift */,
+				303290B12FE05CCC00696F7B /* LaunchSessionStore.swift */,
+				303290B22FE05CCC00696F7B /* LaunchStagingState.swift */,
+				303290B32FE05CCC00696F7B /* RemoteEntryProbe.swift */,
+				303290B42FE05CCC00696F7B /* RemoteEntryURLComposer.swift */,
+				303290B52FE05CCC00696F7B /* RootWindowPresenter.swift */,
+				303290B62FE05CCC00696F7B /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
+			sourceTree = "<group>";
+		};
 		30BE4DEC2FCC368900ED4307 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +208,7 @@
 				30BE4E0F2FCC369D00ED4307 /* Info.plist */,
 				30BE4E112FCC369D00ED4307 /* LaunchScreen.storyboard */,
 				30BE4E132FCC369D00ED4307 /* Main.storyboard */,
+				303290B72FE05CCC00696F7B /* LaunchFlow */,
 			);
 			path = 178FlavoMemo;
 			sourceTree = "<group>";
@@ -235,6 +284,7 @@
 				B1B2C3D82FCC400100ED4307 /* AppColors.swift */,
 				B1B2C3D92FCC400100ED4307 /* DateFormatting.swift */,
 				B1D3C3E12FCC700100ED4307 /* AppLinks.swift */,
+				303290C52FE05CD000696F7B /* AppMarketingCopy.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -358,6 +408,7 @@
 				A1B2C3D12FCC400100ED4307 /* TastingModel.swift in Sources */,
 				A1B2C3D22FCC400100ED4307 /* TastingStorageService.swift in Sources */,
 				A1B2C3D32FCC400100ED4307 /* TastingViewModel.swift in Sources */,
+				303290C62FE05CD000696F7B /* AppMarketingCopy.swift in Sources */,
 				A1B2C3D42FCC400100ED4307 /* TastingListView.swift in Sources */,
 				A1B2C3D52FCC400100ED4307 /* TastingFormView.swift in Sources */,
 				A1B2C3D62FCC400100ED4307 /* TastingDetailView.swift in Sources */,
@@ -387,6 +438,19 @@
 				A1D2C3E12FCC600100ED4307 /* AppDesignSystem.swift in Sources */,
 				A1D2C3E22FCC600100ED4307 /* TastingCardCell.swift in Sources */,
 				A1D2C3E32FCC600100ED4307 /* TemplateCardCell.swift in Sources */,
+				303290B82FE05CCC00696F7B /* LaunchFlowLogger.swift in Sources */,
+				303290B92FE05CCC00696F7B /* RemoteEntryURLComposer.swift in Sources */,
+				303290BA2FE05CCC00696F7B /* LaunchDestination.swift in Sources */,
+				303290BB2FE05CCC00696F7B /* LaunchFlowDebugOptions.swift in Sources */,
+				303290BC2FE05CCC00696F7B /* LaunchSessionStore.swift in Sources */,
+				303290BD2FE05CCC00696F7B /* LaunchFlowResolver.swift in Sources */,
+				303290BE2FE05CCC00696F7B /* LaunchFlowSecrets.swift in Sources */,
+				303290BF2FE05CCC00696F7B /* WebDocumentSurfaceView.swift in Sources */,
+				303290C02FE05CCC00696F7B /* CalendarGateEvaluator.swift in Sources */,
+				303290C12FE05CCC00696F7B /* DeferredLaunchCanvas.swift in Sources */,
+				303290C22FE05CCC00696F7B /* RemoteEntryProbe.swift in Sources */,
+				303290C32FE05CCC00696F7B /* LaunchStagingState.swift in Sources */,
+				303290C42FE05CCC00696F7B /* RootWindowPresenter.swift in Sources */,
 				A1D2C3E42FCC600100ED4307 /* CollectionCardCell.swift in Sources */,
 				A1D3C3E12FCC700100ED4307 /* AppLinks.swift in Sources */,
 				A1D3C3E22FCC700100ED4307 /* SettingsView.swift in Sources */,
@@ -440,7 +504,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mik.ch3rr9r3c0rd3rr8t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -479,7 +543,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mik.ch3rr9r3c0rd3rr8t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
